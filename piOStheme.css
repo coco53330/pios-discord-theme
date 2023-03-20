@@ -155,7 +155,11 @@ User-definable variables: kebab-case
     --elevation-low:    transparent;
     --elevation-medium: transparent;
     --elevation-high:   transparent;
-
+  
+    --crt-overlay: none;
+    --crt-scanline: none;
+    --crt-flicker: none;
+	
     /* Search */
     --search-popout-option-fade:        linear-gradient(90deg, transparent, var(--piOSblack) 80%); /* Fading effect after search options */
     --search-popout-option-fade-hover:  linear-gradient(90deg, transparent, var(--piOSblack) 50%);
@@ -182,7 +186,7 @@ User-definable variables: kebab-case
         rgba(0, 255, 255, 0.2) 2px,
         rgba(0, 255, 255, 0.2) 6px
     ); /* Spoiler stripe pattern */
-    --glowIntensity: var(--glow-intensity, 1);
+    --glowIntensity: var(--glow-intensity, .5);
     --true-compact-message-spacing: var(--compact-message-spacing, 1); /* Space between messages in compact mode, user adjustable */
     --focus-primary: hsl(
         calc(var(--piOSaccenthue) + 180),
