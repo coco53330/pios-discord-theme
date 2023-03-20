@@ -29,7 +29,7 @@ Join Salt's Discord Themes server: https://discord.gg/uy8nKQVatp
 @import url("https://saltssaumure.github.io/pios-discord-theme/pios.min.css");
 
 :root {
-    --glow-intensity: .3;            /* Intensity of text glow. Range: 0-1, default: 1 (100%) */
+    --glow-intensity: 0;            /* Intensity of text glow. Range: 0-1, default: 1 (100%) */
     --compact-message-spacing: 1;   /* Space between messages in compact mode. Range: 0-∞, default: 1 (100%) */
     --accent-color: 0;              /* Colour accent hue value as in HSL. Range: 0-360, default: 0 (red) */
     --title-text: "Discord Grand Edition";  /* Text replacement for Discord logo. Values: any text in "quotations" */
