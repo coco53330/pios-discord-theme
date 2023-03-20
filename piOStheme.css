@@ -159,6 +159,7 @@ User-definable variables: kebab-case
     --crt-overlay: none;
     --crt-scanline: none;
     --crt-flicker: none;
+    --title-text: "Discord: Grand Edition"
 	
     /* Search */
     --search-popout-option-fade:        linear-gradient(90deg, transparent, var(--piOSblack) 80%); /* Fading effect after search options */
